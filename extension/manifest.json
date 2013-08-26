@@ -1,7 +1,7 @@
 {
-    "name": "SensCritique Notifier",
-    "description": "Displays your SensCritique notifications unread count",
-    "version": "0.0.1",
+    "name": "__MSG_extName__",
+    "description": "__MSG_extDescription__",
+    "version": "0.0.2",
     "background": {
         "persistent": false,
         "scripts": [
@@ -11,7 +11,7 @@
     "permissions": [
         "alarms",
         "tabs",
-        "http://www.senscritique.com/"
+        "*://www.senscritique.com/"
     ],
     "browser_action": {
         "default_icon": "icon-19.png"
@@ -23,5 +23,6 @@
         "128": "icon-128.png"
     },
     "minimum_chrome_version": "28",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "default_locale": "fr"
 }

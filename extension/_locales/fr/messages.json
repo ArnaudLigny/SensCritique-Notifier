@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "Notificateur SensCritique"
+    },
+    "extDescription": {
+        "message": "Affiche le nombre de notifications SensCritique non lus."
+    },
+    "browserActionDefaultTitle": {
+        "message": "$count$ notification(s) SensCritique",
+        "placeholders": {
+            "count": {
+                "content": "$1",
+                "example": "7"
+            }
+        }
+    },
+    "browserActionErrorTitle": {
+        "message": "Vous devez être connecté à votre compte SensCritique"
+    }
+}

@@ -66,9 +66,9 @@
     NotificationsCount(function (count) {
       if (count !== false) {
         //console.log(count);
-        render((count !== '0' ? count : ''), [208, 0, 24, 255], 'SensCritique notifications');
+        render((count !== '0' ? count : ''), [208, 0, 24, 255], chrome.i18n.getMessage('browserActionDefaultTitle', count));
       } else {
-        render('?', [190, 190, 190, 230], 'You should be logged into SensCritique');
+        render('?', [190, 190, 190, 230], chrome.i18n.getMessage('browserActionErrorTitle'));
       }
     });
   }
