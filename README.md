@@ -8,7 +8,7 @@ SensCritique Notifier is a Google Chrome extension that displays your [SensCriti
 Installation
 ------------
 
-1. Download [the lastest release](../../releases)
+1. Download [the lastest release](https://github.com/Narno/SensCritique-Notifier/releases)
 2. Visit ```chrome://extensions``` in your browser
 3. Drag & drop the _.crx_ file in that tab
 
