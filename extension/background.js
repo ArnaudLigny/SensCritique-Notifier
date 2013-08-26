@@ -1,4 +1,5 @@
 (function () {
+  var HOME_URL = 'http://www.senscritique.com';
   var NOTIFICATIONS_URL = 'http://www.senscritique.com/notifications';
   
   // XHR helper function
@@ -23,7 +24,7 @@
   window.NotificationsCount = function (callback) {
     var tmpDom = document.createElement('div');
 
-    xhr('GET', NOTIFICATIONS_URL, function (data) {
+    xhr('GET', HOME_URL, function (data) {
       var notifElem, countElem;
       tmpDom.innerHTML = data;
 
