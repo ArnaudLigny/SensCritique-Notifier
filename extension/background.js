@@ -82,6 +82,7 @@
     chrome.tabs.create({
       url: NOTIFICATIONS_URL
     });
+    update();
   });
 
   update();
