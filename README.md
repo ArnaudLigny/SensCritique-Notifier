@@ -13,5 +13,5 @@ Installation
 3. Drag & drop the _.crx_ file in that tab
 
 Or directly from [Chrome Web Store](https://chrome.google.com/webstore/detail/senscritique-notifier/modfdnhchpghpbfdngipkncfjcjmjjel).  
-[![SensCritique Notifier available in the Chrome Web Store](https://developers.google.com/chrome/web-store/images/branding/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/senscritique-notifier/modfdnhchpghpbfdngipkncfjcjmjjel)
+[![SensCritique Notifier available in the Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/senscritique-notifier/modfdnhchpghpbfdngipkncfjcjmjjel)
 
