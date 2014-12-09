@@ -33,9 +33,9 @@
         callback(false);
       }
 
-      notifElem = tmpDom.querySelector('a[href="/notifications"].lahe-notifications-center');
+      notifElem = tmpDom.querySelector('a[href="/notifications"].lahe-userMenu-action');
       if (notifElem) {
-        countElem = tmpDom.querySelector('span.lahe-notifications-count');
+        countElem = tmpDom.querySelector('span.lahe-userMenu-notify');
         if (countElem) {
           callback(countElem.textContent);
         } else {
