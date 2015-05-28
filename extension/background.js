@@ -1,6 +1,7 @@
 (function () {
   var HOME_URL = 'http://www.senscritique.com';
   var NOTIFICATIONS_URL = 'http://www.senscritique.com/notifications';
+  var SOCIALCOUNT_URL = 'http://www.senscritique.com/users/socialCount.json';
   
   // XHR helper function
   var xhr = function () {
@@ -22,28 +23,27 @@
 
   // main function
   window.NotificationsCount = function (callback) {
-    var tmpDom = document.createElement('div');
+    var timestamp = Math.round(new Date().getTime() / 1000);
+    xhr('GET', SOCIALCOUNT_URL + '?_=' + timestamp, function (data) {
+      var json, count;
 
-    xhr('GET', HOME_URL, function (data) {
-      var notifElem, countElem;
-      tmpDom.innerHTML = data;
+      // no data or not logged in
+      //if (data === false || '/signin') {
+      //  callback(false);
+      //}
 
-      // no data
-      if (data === false) {
+      try {
+        json = JSON.parse(data);
+        count = json.json.notifications_count;
+      } catch (e) {
+        console.error("Parsing error:", e.message);
         callback(false);
       }
 
-      notifElem = tmpDom.querySelector('a[href="/notifications"].lahe-userMenu-action');
-      if (notifElem) {
-        countElem = tmpDom.querySelector('span.lahe-userMenu-notify');
-        if (countElem) {
-          callback(countElem.textContent);
-        } else {
-          callback('0');
-        }
-      }
-      else {
-        callback(false);
+      if (count > 0) {
+        callback(count.toString());
+      } else if (count === 0) {
+        callback('0');
       }
     });
   };
@@ -64,8 +64,8 @@
   // update badge
   function update() {
     NotificationsCount(function (count) {
+      //console.log(count);
       if (count !== false) {
-        //console.log(count);
         render((count !== '0' ? count : ''), [208, 0, 24, 255], chrome.i18n.getMessage('browserActionDefaultTitle', count));
       } else {
         render('?', [190, 190, 190, 230], chrome.i18n.getMessage('browserActionErrorTitle'));
