@@ -35,7 +35,7 @@
 
       try {
         json = JSON.parse(data);
-        count = json.json.notifications_count;
+        count = json.json.notifications_count + json.json.messages_count;
       } catch (e) {
         console.error("Parsing error:", e.message);
         callback(false);
