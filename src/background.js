@@ -5,7 +5,7 @@
    * Config
    */
 
-  var HOME_URL = 'https://www.senscritique.com';
+  var HOME_URL = 'https://www.senscritique.com/';
   var NOTIFICATIONS_URL = 'https://www.senscritique.com/notifications';
   var SOCIALCOUNT_URL = 'https://www.senscritique.com/users/socialCount.json';
 
