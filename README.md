@@ -8,6 +8,6 @@
 
 ## License
 
-F-Notifier is a free software distributed under the terms of the MIT license.
+SensCritique Notifier is a free software distributed under the terms of the MIT license.
 
 © 2013-2018 [Arnaud Ligny](https://arnaudligny.fr)  
