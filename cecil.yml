@@ -1,0 +1,6 @@
+title: leo-bot
+content:
+  dir: .
+static:
+  dir: docs
+  target: docs
