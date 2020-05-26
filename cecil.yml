@@ -1,4 +1,5 @@
-title: leo-bot
+title: SensCritique-Notifier
+description: "Browser extension that displays your SensCritique notifications unread count."
 content:
   dir: .
 static:
