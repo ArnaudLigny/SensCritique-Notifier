@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
-  <channel>
-    <title>SensCritique-Notifier</title>
-    <description><![CDATA[Browser extension that displays your SensCritique notifications unread count.]]></description>
-    <lastBuildDate>2020-05-26T23:48:20+02:00</lastBuildDate>
-    <link>/</link>
-  </channel>
-</rss>
