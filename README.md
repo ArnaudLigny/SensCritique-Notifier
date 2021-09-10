@@ -6,9 +6,13 @@
 
 ![SensCritique-Notifier screenshot](docs/screenshot_640x400.png "SensCritique-Notifier screenshot")
 
+## Support
+
+<https://github.com/Narno/SensCritique-Notifier/issues>
+
 ## Source
 
-<https://github.com/Narno/SensCritique-Notifier>
+<https://github.com/Narno/SensCritique-Notifier.git>
 
 ## License
 
