@@ -8,11 +8,11 @@
 
 ## Support
 
-<https://github.com/Narno/SensCritique-Notifier/issues>
+<https://github.com/ArnaudLigny/SensCritique-Notifier/issues>
 
 ## Source
 
-<https://github.com/Narno/SensCritique-Notifier.git>
+<https://github.com/ArnaudLigny/SensCritique-Notifier.git>
 
 ## License
 
