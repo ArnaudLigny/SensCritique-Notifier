@@ -5,7 +5,7 @@
   <subtitle><![CDATA[Browser extension that displays your SensCritique notifications unread count.]]></subtitle>
   <link href="/atom.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2021-10-08T02:24:07+02:00</updated>
+  <updated>2021-12-14T03:17:10+01:00</updated>
   <author>
     <name>SensCritique-Notifier</name>
     <uri>/</uri>
